@@ -1,8 +1,8 @@
 # Capstone_Project_3
-*Repository* ini berisi implementasi algoritma *Machine Learning* untuk memprediksi *churn* suatu pelanggan di industri telekomunikasi. Melalui penggunaan data historis pelanggan, tujuan dari proyek ini adalah untuk mengembangkan model algoritma yang dapat mengidentifikasi pelanggan yang berpotensi akan berhenti berlangganan.
+*Repository* ini berisi implementasi algoritma *Machine Learning* untuk memprediksi *churn* suatu pelanggan di industri telekomunikasi. Melalui penggunaan data historis pelanggan, tujuan dari proyek ini adalah untuk mengembangkan model algoritma yang dapat mengidentifikasi pelanggan yang berpotensi akan berhenti berlangganan. Video presentasi dapat dilihat pada [tautan berikut](https://drive.google.com/file/d/1Vi5-LVYPEc8AcfHtB0Dbx3R7OT0fm_BO/view?usp=share_link).
 
 ### Bahasa Pemrogaman
-Proyek ini dibuat menggunakan bahasa pemrograman Python 3 dan framework Jupyter Notebook, dengan penggunaan library pandas, matplotlib, dan seaborn untuk analisis data dan visualisasi, serta beberapa library tambahan dari Scikit-learn dan Imblearn untuk proses *feature engineering* dan *Machine Learnig Modelling*.
+Proyek ini dibuat menggunakan bahasa pemrograman Python 3 dan framework Jupyter Notebook, dengan penggunaan library pandas, matplotlib, dan seaborn untuk analisis data dan visualisasi, serta beberapa library tambahan dari **Scikit-learn** dan **Imblearn** untuk proses *feature engineering* dan *Machine Learning Modelling*.
 
 ### Data
 *Repository* ini menyertakan *dataset* bernama '`data_telco_customer_churn.csv`' yang digunakan dalam proyek ini. *Dataset* ini berisi data historis pelanggan yang digunakan sebagai input untuk melatih model prediktif.
@@ -11,7 +11,7 @@ Proyek ini dibuat menggunakan bahasa pemrograman Python 3 dan framework Jupyter 
 *Repository* ini berisi dokumentasi bernama '`Telco Customer Churn.ipynb`' yang berisi implementasi algoritma *Machine Learning*. Dokumentasi ini mencakup tahap *Business Problem Identification*, *Exploratory Data Analysis*, *Feature Engineering*, *Model Benchmarking*, *Imbalanced Dataset*, *Hyperparamter Tuning*, *Model Explanation*, *Conclusion*, dan *Recommendation*.
 
 ### Instruksi Penggunaan
-Lakukan proses *cloning* dan jalankan *file* '`Telco Customer Churn.ipynb`' menggunakan *Text Editor* apapun yang mendukung bahasa pemrogaman Python 3. Untuk visualisasi *Model Explanation* dapat menggunakan *repository* dari '`slundberg`' pada [tautan berikut](https://github.com/slundberg/shap/tree/master).
+Lakukan proses *cloning* dan jalankan *file* '`Telco Customer Churn.ipynb`' menggunakan *Text Editor* apapun yang mendukung bahasa pemrogaman **Python 3** dan *framework* **Jupyter Notebook**. Untuk visualisasi *Model Explanation* dapat menggunakan *repository* dari '`slundberg`' pada [tautan berikut](https://github.com/slundberg/shap/tree/master).
 
 ### Evaluasi dan Metrik Performa
 Metrik evaluasi yang digunakan untuk mengukur performa model algoritma diantaranya adalah ROC-AUC, *Average Precision*, *F2 Score*, *precision*, dan *recall*.
