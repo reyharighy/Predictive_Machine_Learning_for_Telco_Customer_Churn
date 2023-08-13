@@ -8,7 +8,7 @@ A common approach is to provide special pricing packages or bonuses to customers
 
 ## Table of Contents
 - [Case Analysis and Goals](#case-analysis-and-goals)
-- [Data Understanding](#data-understanding)
+- [Data Understanding and Preparation](#data-understanding-and-preparation)
 
 ## Case Analysis and Goals
 In this case, a predictive model will be developed for a telecommunications company with promotional programs that will only be offered to a group of customers deemed susceptible to churn. To make this more effective, Machine Learning is required to identify this customer group. The goal of this predictive model is to generate a churn score for each customer, indicating whether they are predicted to unsubscribe or not. This predictive model will use predictors based on patterns of customer internet service usage on the company's network.
