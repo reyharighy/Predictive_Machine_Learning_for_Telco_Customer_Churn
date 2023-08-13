@@ -8,12 +8,12 @@ A common approach is to provide special pricing packages or bonuses to customers
 
 ## Table of Contents
 - [Case Analysis and Goals](#case-analysis-and-goals)
-- [Data Understanding and Preparation](#data-understanding-and-preparation)
+- [Data Understanding](#data-understanding)
 
 ## Case Analysis and Goals
 In this case, a predictive model will be developed for a telecommunications company with promotional programs that will only be offered to a group of customers deemed susceptible to churn. To make this more effective, Machine Learning is required to identify this customer group. The goal of this predictive model is to generate a churn score for each customer, indicating whether they are predicted to unsubscribe or not. This predictive model will use predictors based on patterns of customer internet service usage on the company's network.
 
 How can the created prediction discern customer usage patterns? An individual's past behavior can serve as a reference point for understanding their future behavior. These behaviors are what will be analyzed from the available data. By identifying the signs that indicate someone is likely to churn, the company can take measures to prevent them from actually unsubscribing.
 
-## Data Understanding and Preparation
-At this stage, Data Understanding and Preparation is performed with the aim of gaining a deeper understanding of the data characteristics being analyzed before before getting into Explanatory Data Analysis. Some steps of preparation are conducted as a slight cleanse process, those are data formatting and duplicates. Futher preparation processes will go along with in Explanatory Data Analysis. Please find the detailed process in [Data Understanding and Preparation](Data_Understanding_and_Preparation.ipynb).
+## Data Understanding
+At this stage, Data Understanding is performed with the aim of gaining a deeper understanding of the data characteristics being analyzed before before getting into Explanatory Data Analysis. Some steps of preparation are conducted as a slight cleanse process, those are data formatting and duplicates. Futher preparation processes will go along with in Explanatory Data Analysis. Please find the detailed process in [Data Understanding](Data_Understanding.ipynb).
