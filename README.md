@@ -12,6 +12,7 @@ A common approach is to provide special pricing packages or bonuses to customers
 - [Explanatory Data Analysis](#explanatory-data-analysis)
 - [Feature Engineering](#feature-engineering)
 - [Model Benchmarking](#model-benchmarking)
+- [Imbalanced Dataset](#imbalanced-dataset)
 
 ## Case Analysis and Goals
 In this case, a predictive model will be developed for a telecommunications company with promotional programs that will only be offered to a group of customers deemed susceptible to churn. To make this more effective, Machine Learning is required to identify this customer group. The goal of this predictive model is to generate a churn score for each customer, indicating whether they are predicted to unsubscribe or not. This predictive model will use predictors based on patterns of customer internet service usage on the company's network.
@@ -29,3 +30,6 @@ Before doing machine learning modeling, a process is needed to prepare the raw d
 
 ## Model Benchmarking
 At this stage, the process of evaluating the performance of various machine learning model algorithms will be carried out by testing each model using various subsets of the available data and calculating the average score used as a reference for the assessment. This method is used to provide a more reliable and accurate estimate of the performance of each machine learning model when faced with new data sets. Please find the detailed process in [Model Benchmarking](Model_Benchmarking.ipynb).
+
+## Imbalanced Dataset
+The dataset as a whole has an unequal proportion of target classes where in this case study, the number of customers who churn is far less than subscribers who are still subscribed. This can cause several disadvantages, including model performance that tends to be biased, poor generalization, non-representative measurement evaluation results, and wrong interpretation of existing problems. This happens because the amount of data for the minority class, in this case churn customers, is insufficient when the training process is carried out on the algorithm model used. As a result, the algorithm model will produce poor performance in detecting churn customers even though overall it has fairly good accuracy. These deficiencies can be anticipated by manipulating the data so that the number of positive and negative classes is equal. Please find the detailed process in [Imbalanced Dataset](Imbalanced_Dataset.ipynb).
