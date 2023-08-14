@@ -10,6 +10,7 @@ A common approach is to provide special pricing packages or bonuses to customers
 - [Case Analysis and Goals](#case-analysis-and-goals)
 - [Data Understanding](#data-understanding)
 - [Explanatory Data Analysis](#explanatory-data-analysis)
+- [Feature Engineering](#feature-engineering)
 
 ## Case Analysis and Goals
 In this case, a predictive model will be developed for a telecommunications company with promotional programs that will only be offered to a group of customers deemed susceptible to churn. To make this more effective, Machine Learning is required to identify this customer group. The goal of this predictive model is to generate a churn score for each customer, indicating whether they are predicted to unsubscribe or not. This predictive model will use predictors based on patterns of customer internet service usage on the company's network.
@@ -21,3 +22,6 @@ At this stage, Data Understanding is performed with the aim of gaining a deeper 
 
 ## Explanatory Data Analysis
 Explanatory Data Analysis is very critical before building a predictive model. This includes identifying patterns, trends, relationships, anomalies in data, as well as revealing insights that may not be visible directly. As for visualization, we will use library from **Matplotlib** and **Seaborn**. Please find the detailed process in [Explanatory Data Analysis](Explanatory_Data_Analysis.ipynb).
+
+## Feature Engineering
+Before doing machine learning modeling, a process is needed to prepare the raw data into ready-to-use data. In other words, this process is referred to as feature engineering. By doing good feature engineering, machine learning models can provide more accurate and better results in predicting target variables. Please find the detailed process in [Feature Engineering](Feature_Engineering.ipynb)
