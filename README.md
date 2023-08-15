@@ -14,6 +14,7 @@ A common approach is to provide special pricing packages or bonuses to customers
 - [Model Benchmarking](#model-benchmarking)
 - [Imbalanced Dataset](#imbalanced-dataset)
 - [Hyperparameter Tuning](#hyperparameter-tuning)
+- [Model Explanation and Saving](#model-explanation-and-saving)
 
 ## Case Analysis and Goals
 In this case, a predictive model will be developed for a telecommunications company with promotional programs that will only be offered to a group of customers deemed susceptible to churn. To make this more effective, Machine Learning is required to identify this customer group. The goal of this predictive model is to generate a churn score for each customer, indicating whether they are predicted to unsubscribe or not. This predictive model will use predictors based on patterns of customer internet service usage on the company's network.
@@ -37,3 +38,6 @@ The dataset as a whole has an unequal proportion of target classes where in this
 
 ## Hyperparameter Tuning
 Basically the developed algorithm model can produce more optimal performance by adjusting a set of hyperparameters from the algorithm model itself. The goal of hyperparameter tuning is to find the combination of parameters that produces the best model performance, including searching through hyperparameter tuning to find optimal values ​​based on certain evaluation metrics. Please find the detailed process in [Hyperparameter Tuning](Hyperparameter_Tuning.ipynb).
+
+## Model Explanation and Saving
+Model explanation refers to the process of understanding and explaining how the algorithm model works in making predictions. The goal is to provide insights and find out what factors contribute to the output produced. In this case, a number of features are provided from past data regarding customer information using the company's services and labels that reflect the subscription status of each customer. The company wants to know what factors cause a customer to churn and evaluate existing business models with the aim that customer retention can be as high as possible. Please find the detailed process in [Model Explanation and Saving](Model_Explanation_and_Saving.ipynb).
